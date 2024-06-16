@@ -8,3 +8,5 @@ const user: User = {
     name: 'Hayes',
     age: 34
 };
+
+
