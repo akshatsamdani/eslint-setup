@@ -1,5 +1,6 @@
 interface User {
-    name: string;
+    name:
+    string;
     age: number;
   }
 
@@ -11,5 +12,6 @@ const user: User = {
 
 };
 const user2: User;
+const user3: User;
 
 
