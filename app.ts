@@ -1,18 +1,12 @@
 interface User {
-    name:
-    string;
+    name: string;
     age: number;
   }
 
-
-const user: User = {
+const user5: User = {
     name: 'Hayes',
-    age:
-     34
-
+    age: 34
 };
-const user2: User;
-const user3: User;
-const user4: User;
 
+console.log('user', user5);
 
