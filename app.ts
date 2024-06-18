@@ -13,5 +13,6 @@ const user: User = {
 };
 const user2: User;
 const user3: User;
+const user4: User;
 
 

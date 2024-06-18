@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx",
     "eslint": "LIST=`git diff-index --name-only --diff-filter=d HEAD | grep -E \"(.*)\\.(tsx|ts)\" | grep -v json`; if [ \"$LIST\" ]; then eslint $LIST --fix; fi"
   },
   "keywords": [],
