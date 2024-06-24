@@ -1,6 +1,1 @@
-interface User {
-  name: string;
-  age: number;
-}
-
-console.log("Hello, world!");
+console.log('Hello, world!');
