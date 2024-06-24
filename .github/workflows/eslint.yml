@@ -44,5 +44,3 @@ jobs:
           else
             echo "No JavaScript or TypeScript files changed."
           fi
-      - name: Build project
-        run: npm run build
